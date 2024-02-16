@@ -1,0 +1,523 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\alexengTeach1191-git\\Bell_Unity\\Assembly-CSharp.csproj": {}
+  },
+  "projects": {
+    "E:\\alexengTeach1191-git\\Bell_Unity\\Assembly-CSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\alexengTeach1191-git\\Bell_Unity\\Assembly-CSharp.csproj",
+        "projectName": "Assembly-CSharp",
+        "projectPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Assembly-CSharp.csproj",
+        "packagesPath": "C:\\Users\\SnowLight\\.nuget\\packages\\",
+        "outputPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Temp\\obj\\Debug\\Assembly-CSharp\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SnowLight\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Hands.Samples.VisualizerSample.csproj": {
+                "projectPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Hands.Samples.VisualizerSample.csproj"
+              },
+              "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.csproj": {
+                "projectPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.csproj"
+              },
+              "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.csproj": {
+                "projectPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.csproj"
+              },
+              "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj": {
+                "projectPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj"
+              },
+              "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.Hands.csproj": {
+                "projectPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.Hands.csproj"
+              },
+              "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.csproj": {
+                "projectPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.csproj"
+              },
+              "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj": {
+                "projectPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj"
+              },
+              "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj": {
+                "projectPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Hands.Samples.VisualizerSample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Hands.Samples.VisualizerSample.csproj",
+        "projectName": "Unity.XR.Hands.Samples.VisualizerSample",
+        "projectPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Hands.Samples.VisualizerSample.csproj",
+        "packagesPath": "C:\\Users\\SnowLight\\.nuget\\packages\\",
+        "outputPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Temp\\obj\\Debug\\Unity.XR.Hands.Samples.VisualizerSample\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SnowLight\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.csproj",
+        "projectName": "Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets",
+        "projectPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.csproj",
+        "packagesPath": "C:\\Users\\SnowLight\\.nuget\\packages\\",
+        "outputPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Temp\\obj\\Debug\\Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SnowLight\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj": {
+                "projectPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.csproj",
+        "projectName": "Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor",
+        "projectPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.csproj",
+        "packagesPath": "C:\\Users\\SnowLight\\.nuget\\packages\\",
+        "outputPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Temp\\obj\\Debug\\Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SnowLight\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj",
+        "projectName": "Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator",
+        "projectPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj",
+        "packagesPath": "C:\\Users\\SnowLight\\.nuget\\packages\\",
+        "outputPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Temp\\obj\\Debug\\Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SnowLight\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.Hands.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.Hands.csproj",
+        "projectName": "Unity.XR.Interaction.Toolkit.Samples.Hands",
+        "projectPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.Hands.csproj",
+        "packagesPath": "C:\\Users\\SnowLight\\.nuget\\packages\\",
+        "outputPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Temp\\obj\\Debug\\Unity.XR.Interaction.Toolkit.Samples.Hands\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SnowLight\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.csproj",
+        "projectName": "Unity.XR.Interaction.Toolkit.Samples.Hands.Editor",
+        "projectPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.csproj",
+        "packagesPath": "C:\\Users\\SnowLight\\.nuget\\packages\\",
+        "outputPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Temp\\obj\\Debug\\Unity.XR.Interaction.Toolkit.Samples.Hands.Editor\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SnowLight\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj",
+        "projectName": "Unity.XR.Interaction.Toolkit.Samples.StarterAssets",
+        "projectPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj",
+        "packagesPath": "C:\\Users\\SnowLight\\.nuget\\packages\\",
+        "outputPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Temp\\obj\\Debug\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SnowLight\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj",
+        "projectName": "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor",
+        "projectPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj",
+        "packagesPath": "C:\\Users\\SnowLight\\.nuget\\packages\\",
+        "outputPath": "E:\\alexengTeach1191-git\\Bell_Unity\\Temp\\obj\\Debug\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SnowLight\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
