@@ -65,24 +65,7 @@ public class elevatorNewControl : MonoBehaviour
 
         
 
-        if (script.GetComponent<setGoup>().elevator_Go_up == true)
-
-        // if (Input.GetKeyDown(KeyCode.B) || Input.GetKeyDown(KeyCode.N))
-        {
-            ele_animator.SetInteger("goup", 1);
-            endup = 0;
-            if (t < 2) t += 0.1f;
-            else  elevatorGo();
-            // Debug.Log("Key down");
-
-        }
-        if (xrRig.transform.position.y < -90.0f && endup == 1)
-        {
-            if (!HitSource.isPlaying && hitsound_Int == 0)  {   
-                    HitSource.Play();
-                    hitsound_Int = 1;
-            }
-        }
+       
         if (xrRig.transform.position.y < -119.0f && endup == 1)
         {
                 elevator.transform.position = new Vector3(elevator.transform.position.x, -120.77f, elevator.transform.position.z);
@@ -94,9 +77,7 @@ public class elevatorNewControl : MonoBehaviour
 
                 windSound.volume = 0.3f;
                 
-                // Debug.Log("sound");
-                if (splash == 0) imgsplashInc();
-                if (splash == 1) imgsplashDec();
+                
         }
 
         if (xrRig.transform.position.y < 235.0f && xrRig.transform.position.y > -119.0f && endup == 1){
@@ -136,44 +117,7 @@ public class elevatorNewControl : MonoBehaviour
 
     }
 
-    private void imgsplashDec()
-    {
-
     
-        if (opacity >= 0.0f)
-        {
-            
-            opacity -= 0.18f * Time.deltaTime;
-            img.color = new Color(255, 255, 255, opacity);
-
-        }
-
-        else 
-        {
-            splash = 0;
-            endup = 0;
-        }
-
-    }
-
-    // [System.Obsolete]
-    private void imgsplashInc()
-    {
-        // RecenterVR();
-        
-        if (opacity < 1.4f)
-        {
-            // if (opacity == 0.0f) HitSource.Play();
-            opacity += 2.0f * Time.deltaTime;
-            img.color = new Color(255, 255, 255, opacity);
-
-        }
-        else 
-        {
-            splash = 1;
-            // Destroy(bell);
-        }
-    }
 
 
     
