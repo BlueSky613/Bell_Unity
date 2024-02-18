@@ -51,19 +51,7 @@ public class elevatorControl : MonoBehaviour
     {
 
 
-        if (teleport.transform.position.y < 287 && upFlag == false)
-        {
-
-            elevatorCont.SetInteger("OpenFlag", 3);
-            if (k == 0)
-            {
-
-                starttime = Time.time;
-                k = 1;
-            }
-
-
-        }
+        
 
         if ((Time.time - starttime) > 7.0f)
         {
@@ -148,28 +136,7 @@ public class elevatorControl : MonoBehaviour
         }
     }
 
-    private void imgsplashDec()
-    {
-        if (opacity >= 0.0f)
-        {
-
-            opacity -= 0.18f * Time.deltaTime;
-            img.color = new Color(255, 255, 255, opacity);
-
-        }
-
-    }
-    private void imgsplashInc()
-    {
-        if (opacity < 1.4f)
-        {
-
-            opacity += 3.0f * Time.deltaTime;
-            img.color = new Color(255, 255, 255, opacity);
-
-        }
-        else splash = 1;
-    }
+    
 
 
 }
