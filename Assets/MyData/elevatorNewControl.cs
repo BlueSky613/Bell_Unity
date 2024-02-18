@@ -105,8 +105,7 @@ public class elevatorNewControl : MonoBehaviour
             hitsound_Int = 0;
             bell.transform.position = new Vector3(287.394f, 238.248f, -473.847f);
             bell.transform.rotation = currentRotation;
-            script.GetComponent<setGoup>().elevator_Go_up = false;
-            script.GetComponent<setGoup>().enabled = false;
+            
             ele_animator.SetInteger("goup", 2);
             wooder.SetActive(true);
             bell.SetActive(true);
