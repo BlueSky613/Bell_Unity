@@ -44,7 +44,7 @@ public class elevatorNewControl : MonoBehaviour
         opacity = 0.0f;
         img.color = new Color(255, 255, 255, opacity);       
         // bellinitposition = bell.transform;
-        currentRotation.eulerAngles = new Vector3(0, 0, 0);
+        //currentRotation.eulerAngles = new Vector3(0, 0, 0);
         
         HitSource = GameObject.Find("GroundTrigger").GetComponent<AudioSource>();
         windSound = GameObject.Find("fallingSound").GetComponent<AudioSource>();
@@ -63,12 +63,10 @@ public class elevatorNewControl : MonoBehaviour
     {  
         
 
-        
-
        
-        if (xrRig.transform.position.y < -119.0f && endup == 1)
+        if (xrRig.transform.position.y < -79.0f && endup == 1)
         {
-                elevator.transform.position = new Vector3(elevator.transform.position.x, -120.77f, elevator.transform.position.z);
+                
                 bell.transform.position = new Vector3(287.394f, 238.248f, -473.847f);
                 wooder.SetActive(false);
             // bell.SetActive(false);
